@@ -67,6 +67,8 @@ p {
 .container {
 	position: relative;
 	top: 100px;
+	left: 20px;
+	bottom: 20px
 }
 
 section {
