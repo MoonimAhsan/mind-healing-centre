@@ -1,0 +1,76 @@
+body,html {
+	background: url(Header.jpg) no-repeat fixed center;
+	font-family: 'Montserrat', sans-serif;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 750px;
+}
+
+h1 {
+	color: rgb(24, 125, 19);
+	text-transform: uppercase;
+	max-width: 200px;
+	text-align: right;
+	font-size: 35px;
+	position: relative;
+	right: 15px;
+	top: 0px;
+	line-height: 150%;
+	/*text-decoration: underline overline*/;
+}
+
+h1{
+	border-top: 2px solid rgb(24, 125, 19);
+	border-left: 2px solid rgb(24, 125, 19);
+	/*border-bottom: 2px solid rgb(24, 125, 19)*/
+
+}
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	background-color: rgb(58, 159, 58);
+	border-color: rgb(58, 159, 58);
+}
+
+.btn:hover {
+	background-color: rgb(58, 170, 58);
+	border-color: rgb(58, 170, 58);
+	border-width: 2px
+}
+
+.btn-xl {
+	padding: 15px 15px;
+}
+
+/*div {
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(110, 198, 255)
+}*/
+
+p {
+	color: white;
+	background-color: rgba(135, 135, 135, .7);
+	max-width: 700px;
+	text-align: left;
+	padding: 15px
+
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container {
+	position: relative;
+	top: 100px;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+
+}
